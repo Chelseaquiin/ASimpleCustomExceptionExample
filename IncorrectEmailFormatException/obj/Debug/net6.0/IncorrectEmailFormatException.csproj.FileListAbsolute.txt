@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\bin\Debug\net6.0\IncorrectEmailFormatException.exe
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\bin\Debug\net6.0\IncorrectEmailFormatException.deps.json
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\bin\Debug\net6.0\IncorrectEmailFormatException.runtimeconfig.json
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\bin\Debug\net6.0\IncorrectEmailFormatException.dll
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\bin\Debug\net6.0\IncorrectEmailFormatException.pdb
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.AssemblyInfo.cs
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.dll
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\refint\IncorrectEmailFormatException.dll
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.pdb
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\IncorrectEmailFormatException.genruntimeconfig.cache
+C:\Users\user\source\repos\IncorrectEmailFormatException\IncorrectEmailFormatException\obj\Debug\net6.0\ref\IncorrectEmailFormatException.dll

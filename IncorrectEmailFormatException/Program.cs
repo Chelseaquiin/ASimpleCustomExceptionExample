@@ -6,13 +6,13 @@
         {
             try
             {
-                SimpleLogIn user = new SimpleLogIn("Amaka", 1234);
+                SimpleLogIn user = new SimpleLogIn("Amaka",  1234);
 
-                user.DisplayInfo();
+                user.ValidateEmail();
             }
             catch(IncorrectEmailFormatException e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.CauseOfError);
             }
             }
     }

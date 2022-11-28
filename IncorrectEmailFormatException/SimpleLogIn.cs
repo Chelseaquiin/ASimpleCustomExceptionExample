@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace IncorrectEmailFormatException
@@ -10,7 +11,6 @@ namespace IncorrectEmailFormatException
     internal class SimpleLogIn
     {
         public string Username { get; set; }
-        public string Email { get; set; }
         public int ID { get; set; }
 
         public SimpleLogIn(string username, int id)
@@ -25,30 +25,28 @@ namespace IncorrectEmailFormatException
 
             string email = Console.ReadLine();
 
-            if (!email.Contains('@'))
-            {
-               // Console.WriteLine($"Invalid Email");
+            Regex regex = new Regex(@"^([\w\.\-]+)@([\w\-]+)((\.(\w){2,3})+)$");
+            Match match = regex.Match(email);
 
-                throw new IncorrectEmailFormatException($"A valid email {Email} must have an @", "The wrong placement of @", DateTime.Now) 
+            if (!match.Success)
+            {
+
+                throw new IncorrectEmailFormatException("Email not in the correct format", DateTime.Now ) 
                 {
                     HelpLink = "https://snov.io/knowledgebase/what-is-a-valid-email-address-format/",
                     Data =
                     {
                         {"TimeStamp", $"Invalid Email at {DateTime.Now}" },
-                        {"Cause", $"{Email} doesn't have an @" }
+                        {"Cause", $"{email} doesn't have an @ and a dot" }
                     }
                 };
             }
-            Console.WriteLine($"Email is {Email}");
+            Console.WriteLine($"Email is {email}");
+            Console.WriteLine($"Username: {Username} \nPin:{ID} \nEmail:{email}");
 
-           
-        }
-        public void DisplayInfo()
-        {
-            ValidateEmail();
 
-            Console.WriteLine($"Username: {Username} \nPin:{ID} \nEmail:{Email}");
         }
+ 
 
     }
 }
